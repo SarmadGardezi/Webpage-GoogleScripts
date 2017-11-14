@@ -6,7 +6,7 @@ Learn how you can write your first google app script to create a webpage or web 
 # Script that fetch html page as webpage
 
 ```ruby
-// Written by Sarmad Gardezi - sarmadgardezi.com
+<!-- Written by Sarmad Gardezi - sarmadgardezi.com -->
 function doGet() {
   return HtmlService.createTemplateFromFile('index').evaluate();
   
